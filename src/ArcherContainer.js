@@ -251,7 +251,7 @@ export class ArcherContainer extends React.Component<Props, State> {
 
       return (
         <SvgArrow
-          key={JSON.stringify({ source, target })}
+          key={JSON.stringify({ source, target, eventId })}
           startingPoint={startingPoint}
           startingAnchorOrientation={startingAnchorOrientation}
           endingPoint={endingPoint}
